@@ -50,7 +50,6 @@ RandomAccessFileReader::RandomAccessFileReader(std::string path, size_t block_si
         perm.push_back(i);
     }
     random_shuffle(perm.begin(), perm.end());
-//    for (auto e : perm) std::cout << e << std::endl;
 }
 
 ssize_t RandomAccessFileReader::read_block() {
