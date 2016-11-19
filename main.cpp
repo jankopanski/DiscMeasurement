@@ -6,6 +6,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <algorithm>
+#include <malloc.h>
 #include "Timer.h"
 #include "FileReader.h"
 
@@ -28,8 +29,22 @@ int main() {
 ////    int fd = open(s.c_str(), O_RDWR);
 //    FileReader fr(s, true);
 
-    int t[] = {1,2,3,4,5};
-    random_shuffle(t, t+5);
+//    int t[] = {1,2,3,4,5};
+//    random_shuffle(t, t+5);
+
+    string path = "/home/jan/ClionProjects/DiscMeasurement/dummy";
+    int fd = open(path.c_str(), O_RDONLY | O_DIRECT/* | O_SYNC*/);
+//    char buf[8192];
+    char *buf = (char*) pvalloc(8192);
+//    memalign();
+    ssize_t bytes;
+    bytes = read(fd, buf, 8192);
+    cout << bytes << endl;
+    cout << buf << endl;
+//    while((bytes = read(fd, buf, 8192))) {
+//        cout << bytes << endl;
+//        cout << buf << endl;
+//    }
 
     return 0;
 }

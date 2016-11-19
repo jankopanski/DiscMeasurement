@@ -11,6 +11,7 @@
 class Timer {
 private:
     std::chrono::system_clock::time_point start_point, stop_point;
+    double time;
 
     double count_time() {
         std::chrono::system_clock::time_point epoch;
@@ -26,9 +27,9 @@ public:
     }
     void stop() {
         stop_point = std::chrono::system_clock::now();
+        time = count_time();
     }
     double read() {
-        static double time = count_time();
         return time;
     }
 };
