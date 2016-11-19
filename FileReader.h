@@ -35,9 +35,6 @@ public:
 class SequentialFileReader : public FileReader {
 public:
     using FileReader::FileReader;
-//    SequentialFileReader(std::string path, size_t block_size, bool is_buffered) {
-//        FileReader(path, block_size, is_buffered);
-//    }
 
     virtual ssize_t read_block();
 };
@@ -46,7 +43,6 @@ class RandomAccessFileReader : public FileReader {
 private:
     std::vector<unsigned> perm;
 public:
-//    using FileReader::FileReader;
     RandomAccessFileReader(std::string path, size_t block_size, bool is_buffered);
 
     virtual ssize_t read_block();
