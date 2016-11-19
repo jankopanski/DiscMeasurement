@@ -3,6 +3,8 @@
 //
 
 #include <iostream>
+#include <unistd.h>
+#include <fstream>
 #include "Timer.h"
 #include "FileReader.h"
 
@@ -11,7 +13,14 @@
 
 using namespace std;
 
+void clear_cache() {
+    sync();
+    ofstream ofs("/proc/sys/vm/drop_caches");
+    ofs << "3" << endl;
+}
+
 void measure_seq(string path, unsigned blocks, bool is_buffered) {
+    clear_cache();
     Timer t;
     SequentialFileReader fr(path, blocks * BLOCK_SIZE, is_buffered);
     t.start();
@@ -23,6 +32,7 @@ void measure_seq(string path, unsigned blocks, bool is_buffered) {
 }
 
 void measure_rand(string path, unsigned blocks, bool is_buffered) {
+    clear_cache();
     Timer t;
     RandomAccessFileReader fr(path, blocks * BLOCK_SIZE, is_buffered);
     t.start();
@@ -34,8 +44,8 @@ void measure_rand(string path, unsigned blocks, bool is_buffered) {
 }
 
 int main(int argc, char *argv[]) {
-    string path = string(argv[1]);
-//    string path = "/home/jan/ClionProjects/DiscMeasurement/dummy";
+//    string path = string(argv[1]);
+    string path = "/home/jan/ClionProjects/DiscMeasurement/dummy";
 
     measure_seq(path, 1, false);
     measure_seq(path, 1, false);
