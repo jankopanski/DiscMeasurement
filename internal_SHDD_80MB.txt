@@ -1,0 +1,336 @@
+Sequential file read
+Blocks: 1
+Buffered: NO
+File size: 83886080 B
+Time: 1.09524 s
+Read speed: 73.0434 MB/s
+
+Sequential file read
+Blocks: 1
+Buffered: NO
+File size: 83886080 B
+Time: 1.08727 s
+Read speed: 73.5789 MB/s
+
+Sequential file read
+Blocks: 2
+Buffered: NO
+File size: 83886080 B
+Time: 1.08583 s
+Read speed: 73.6765 MB/s
+
+Sequential file read
+Blocks: 4
+Buffered: NO
+File size: 83886080 B
+Time: 1.06357 s
+Read speed: 75.2182 MB/s
+
+Sequential file read
+Blocks: 8
+Buffered: NO
+File size: 83886080 B
+Time: 1.0452 s
+Read speed: 76.5406 MB/s
+
+Sequential file read
+Blocks: 16
+Buffered: NO
+File size: 83886080 B
+Time: 1.07485 s
+Read speed: 74.4291 MB/s
+
+Sequential file read
+Blocks: 32
+Buffered: NO
+File size: 83886080 B
+Time: 1.07602 s
+Read speed: 74.3479 MB/s
+
+Sequential file read
+Blocks: 64
+Buffered: NO
+File size: 83886080 B
+Time: 1.06769 s
+Read speed: 74.9284 MB/s
+
+Sequential file read
+Blocks: 128
+Buffered: NO
+File size: 83886080 B
+Time: 1.07609 s
+Read speed: 74.3433 MB/s
+
+Sequential file read
+Blocks: 256
+Buffered: NO
+File size: 83886080 B
+Time: 1.0869 s
+Read speed: 73.604 MB/s
+
+Sequential file read
+Blocks: 512
+Buffered: NO
+File size: 83886080 B
+Time: 1.10083 s
+Read speed: 72.6727 MB/s
+
+Sequential file read
+Blocks: 1024
+Buffered: NO
+File size: 83886080 B
+Time: 1.10952 s
+Read speed: 72.1032 MB/s
+
+Random access file read
+Blocks: 1
+Buffered: NO
+File size: 83886080 B
+Time: 98.092 s
+Read speed: 0.815561 MB/s
+
+Random access file read
+Blocks: 1
+Buffered: NO
+File size: 83886080 B
+Time: 77.2507 s
+Read speed: 1.03559 MB/s
+
+Random access file read
+Blocks: 2
+Buffered: NO
+File size: 83886080 B
+Time: 36.552 s
+Read speed: 2.18867 MB/s
+
+Random access file read
+Blocks: 4
+Buffered: NO
+File size: 83886080 B
+Time: 18.1446 s
+Read speed: 4.40903 MB/s
+
+Random access file read
+Blocks: 8
+Buffered: NO
+File size: 83886080 B
+Time: 9.89928 s
+Read speed: 8.08139 MB/s
+
+Random access file read
+Blocks: 16
+Buffered: NO
+File size: 83886080 B
+Time: 5.61968 s
+Read speed: 14.2357 MB/s
+
+Random access file read
+Blocks: 32
+Buffered: NO
+File size: 83886080 B
+Time: 3.30616 s
+Read speed: 24.1972 MB/s
+
+Random access file read
+Blocks: 64
+Buffered: NO
+File size: 83886080 B
+Time: 2.75913 s
+Read speed: 28.9947 MB/s
+
+Random access file read
+Blocks: 128
+Buffered: NO
+File size: 83886080 B
+Time: 1.66404 s
+Read speed: 48.0757 MB/s
+
+Random access file read
+Blocks: 256
+Buffered: NO
+File size: 83886080 B
+Time: 1.407 s
+Read speed: 56.8586 MB/s
+
+Random access file read
+Blocks: 512
+Buffered: NO
+File size: 83886080 B
+Time: 1.25713 s
+Read speed: 63.6372 MB/s
+
+Random access file read
+Blocks: 1024
+Buffered: NO
+File size: 83886080 B
+Time: 1.2424 s
+Read speed: 64.3915 MB/s
+
+Sequential file read
+Blocks: 1
+Buffered: YES
+File size: 83886080 B
+Time: 1.17291 s
+Read speed: 68.2063 MB/s
+
+Sequential file read
+Blocks: 1
+Buffered: YES
+File size: 83886080 B
+Time: 0.0227949 s
+Read speed: 3509.56 MB/s
+
+Sequential file read
+Blocks: 2
+Buffered: YES
+File size: 83886080 B
+Time: 0.0254793 s
+Read speed: 3139.8 MB/s
+
+Sequential file read
+Blocks: 4
+Buffered: YES
+File size: 83886080 B
+Time: 0.0160703 s
+Read speed: 4978.14 MB/s
+
+Sequential file read
+Blocks: 8
+Buffered: YES
+File size: 83886080 B
+Time: 0.0102322 s
+Read speed: 7818.45 MB/s
+
+Sequential file read
+Blocks: 16
+Buffered: YES
+File size: 83886080 B
+Time: 0.0135056 s
+Read speed: 5923.49 MB/s
+
+Sequential file read
+Blocks: 32
+Buffered: YES
+File size: 83886080 B
+Time: 0.0106114 s
+Read speed: 7539.06 MB/s
+
+Sequential file read
+Blocks: 64
+Buffered: YES
+File size: 83886080 B
+Time: 0.0120599 s
+Read speed: 6633.53 MB/s
+
+Sequential file read
+Blocks: 128
+Buffered: YES
+File size: 83886080 B
+Time: 0.0152038 s
+Read speed: 5261.84 MB/s
+
+Sequential file read
+Blocks: 256
+Buffered: YES
+File size: 83886080 B
+Time: 0.0180239 s
+Read speed: 4438.55 MB/s
+
+Sequential file read
+Blocks: 512
+Buffered: YES
+File size: 83886080 B
+Time: 0.0200387 s
+Read speed: 3992.28 MB/s
+
+Sequential file read
+Blocks: 1024
+Buffered: YES
+File size: 83886080 B
+Time: 0.019252 s
+Read speed: 4155.41 MB/s
+
+Random access file read
+Blocks: 1
+Buffered: YES
+File size: 83886080 B
+Time: 0.0218712 s
+Read speed: 3657.78 MB/s
+
+Random access file read
+Blocks: 1
+Buffered: YES
+File size: 83886080 B
+Time: 0.0187228 s
+Read speed: 4272.87 MB/s
+
+Random access file read
+Blocks: 2
+Buffered: YES
+File size: 83886080 B
+Time: 0.0165552 s
+Read speed: 4832.33 MB/s
+
+Random access file read
+Blocks: 4
+Buffered: YES
+File size: 83886080 B
+Time: 0.0174841 s
+Read speed: 4575.59 MB/s
+
+Random access file read
+Blocks: 8
+Buffered: YES
+File size: 83886080 B
+Time: 0.0101439 s
+Read speed: 7886.51 MB/s
+
+Random access file read
+Blocks: 16
+Buffered: YES
+File size: 83886080 B
+Time: 0.0215505 s
+Read speed: 3712.22 MB/s
+
+Random access file read
+Blocks: 32
+Buffered: YES
+File size: 83886080 B
+Time: 0.010361 s
+Read speed: 7721.29 MB/s
+
+Random access file read
+Blocks: 64
+Buffered: YES
+File size: 83886080 B
+Time: 0.0202488 s
+Read speed: 3950.84 MB/s
+
+Random access file read
+Blocks: 128
+Buffered: YES
+File size: 83886080 B
+Time: 0.0148287 s
+Read speed: 5394.93 MB/s
+
+Random access file read
+Blocks: 256
+Buffered: YES
+File size: 83886080 B
+Time: 0.0217192 s
+Read speed: 3683.37 MB/s
+
+Random access file read
+Blocks: 512
+Buffered: YES
+File size: 83886080 B
+Time: 0.0211636 s
+Read speed: 3780.08 MB/s
+
+Random access file read
+Blocks: 1024
+Buffered: YES
+File size: 83886080 B
+Time: 0.0238893 s
+Read speed: 3348.78 MB/s
+
