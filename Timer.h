@@ -1,7 +1,3 @@
-//
-// Created by jan on 18.11.16.
-//
-
 #ifndef DISCMEASUREMENT_TIMER_H
 #define DISCMEASUREMENT_TIMER_H
 

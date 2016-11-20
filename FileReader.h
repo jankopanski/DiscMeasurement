@@ -1,7 +1,3 @@
-//
-// Created by jan on 18.11.16.
-//
-
 #ifndef DISCMEASUREMENT_FILEREADER_H
 #define DISCMEASUREMENT_FILEREADER_H
 

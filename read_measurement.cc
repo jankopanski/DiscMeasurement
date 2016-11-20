@@ -1,7 +1,3 @@
-//
-// Created by jan on 19.11.16.
-//
-
 #include <iostream>
 #include <unistd.h>
 #include <fstream>
@@ -45,7 +41,6 @@ void measure_rand(string path, unsigned blocks, bool is_buffered) {
 
 int main(int argc, char *argv[]) {
     string path = string(argv[1]);
-//    string path = "/home/jan/ClionProjects/DiscMeasurement/dummy";
 
     measure_seq(path, 1, false);
     measure_seq(path, 1, false);

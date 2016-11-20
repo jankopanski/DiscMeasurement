@@ -1,7 +1,3 @@
-//
-// Created by jan on 18.11.16.
-//
-
 #include "FileReader.h"
 
 #include <fcntl.h>
