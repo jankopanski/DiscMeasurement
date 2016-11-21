@@ -20,7 +20,7 @@ void measure_seq(string path, unsigned blocks, bool is_buffered) {
     Timer t;
     SequentialFileReader fr(path, blocks * BLOCK_SIZE, is_buffered);
     t.start();
-    while (fr.read_block());
+    while (fr.read_block() > 0);
     t.stop();
     double speed = fr.size() / MB / t.read();
     cout << "Sequential file read" << "\nBlocks: " << blocks << "\nBuffered: " << (is_buffered ? "YES" : "NO") << endl;
@@ -32,7 +32,7 @@ void measure_rand(string path, unsigned blocks, bool is_buffered) {
     Timer t;
     RandomAccessFileReader fr(path, blocks * BLOCK_SIZE, is_buffered);
     t.start();
-    while (fr.read_block());
+    while (fr.read_block() > 0);
     t.stop();
     double speed = fr.size() / MB / t.read();
     cout << "Random access file read" << "\nBlocks: " << blocks << "\nBuffered: " << (is_buffered ? "YES" : "NO") << endl;

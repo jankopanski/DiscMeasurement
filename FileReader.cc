@@ -49,6 +49,7 @@ RandomAccessFileReader::RandomAccessFileReader(std::string path, size_t block_si
 }
 
 ssize_t RandomAccessFileReader::read_block() {
+    if (perm.empty()) return 0;
     lseek(fd, perm.back() * block_size, SEEK_SET);
     perm.pop_back();
     ssize_t read_bytes = read(fd, buf, block_size);
